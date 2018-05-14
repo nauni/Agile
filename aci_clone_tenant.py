@@ -19,7 +19,7 @@ DOCUMENTATION = '''
 ---
 
 module: aci_clone_tenant
-author: Joel W. King, World Wide Technology
+author: Mayank Nauni
 version_added: "2.0"
 short_description: Clones a tenant using the northbound interface of a Cisco ACI controller (APIC)
 
