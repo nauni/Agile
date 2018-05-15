@@ -15,7 +15,7 @@
 # 2.2         4 Aug   2015   use HTTPs, included "verify=False"
 # 2.3         3 Aug   2016   Disable InsecureRequestWarning
 # 2.5        22 Aug   2016   Conditionally Disable InsecureRequestWarning due to backlevel python on APIC
-#
+# 2.6         15 May  2018   Mayank added new EPG
 """
 import requests
 import xml
