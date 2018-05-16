@@ -1,5 +1,5 @@
 ---
-# Demo playbook
+# Demo playbook V1.0
 - name: Configuring Tenant
   hosts: apic
   gather_facts: no
