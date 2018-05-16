@@ -11,7 +11,7 @@
      27 April 2015  |  1.3 - return a list of MOs rather than a dictionary, using the DN name for the key is an invalid variable name for Ansible
      14 May   2015  |  1.4 - modification for running under Ansible Tower
      17 June  2015  |  1.5 - corrected cntrl.aaaLogout() placement
-     3  Aug   2015  |  1.6 - added userid to log file name (ACI training class_Mayank)
+     3  Aug   2015  |  1.6 - added userid to log file name (ACI training class_Mayank_Nauni)
  
    
 """
