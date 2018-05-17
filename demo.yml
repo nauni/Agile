@@ -1,14 +1,14 @@
 ---
 # Demo playbook V3.0
 - name: Configuring Tenant
-  hosts: 10.180.0.65
+  hosts: apic
   gather_facts: no
 
   vars:
     aci_login: &aci_login
-      hostname: '{{ apic }}'
-      username: '{{ admin }}'
-      password: '{{ Cisco123 }}'
+      hostname: '{{ aci_hostname }}'
+      username: '{{ aci_username }}'
+      password: '{{ aci_password }}'
       validate_certs: no
     tenant: NetDevOps
     vrf: vrf_ansible
