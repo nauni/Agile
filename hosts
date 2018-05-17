@@ -1,0 +1,28 @@
+[all:vars]
+ansible_python_interpreter="/usr/bin/env python"
+
+[iosxe:children]
+core
+
+[nxos:children]
+distribution
+access
+
+[core]
+172.16.30.111
+172.16.30.112
+
+[distribution]
+172.16.30.101
+172.16.30.102
+
+[access]
+172.16.30.103
+
+[apic]
+10.180.0.65
+[apic:vars]
+ansible_connection = local
+aci_hostname = 10.180.0.65
+aci_username = admin
+aci_password = Cisco123
