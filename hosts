@@ -1,0 +1,16 @@
+
+apic       # single APIC in system- can also use IP if no DNS or /etc/hosts isn't setup
+
+
+[all:vars]
+host = 10.23.239.23
+user = 'admin'
+pass = 'cisco123' 
+
+[apic]
+10.180.0.65
+[apic:vars]
+ansible_connection = local
+aci_hostname = 10.180.0.65
+aci_username = admin
+aci_password = Cisco123

@@ -1,0 +1,5 @@
+apic
+
+[all:vars]
+user=admin
+pass=Cisco!123
