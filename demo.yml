@@ -7,7 +7,7 @@
 
     vars:
         action: post
-        tenant_name: RaWai_Tenant
+        tenant_name: Ansible
         vrf_name: vrf_ansible
         bd:
             name: bd_ansible_1
