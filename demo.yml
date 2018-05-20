@@ -11,9 +11,8 @@
       password: '{{ aci_password }}'
       validate_certs: no
       tenant: Rawai_Tenant
-    vrf: vrf_RaWai
-
-    bd:
+      vrf: vrf_RaWai
+      bd:
       name: bd_T3_1
       ip: 30.30.30.1
       mask: 24
