@@ -10,8 +10,13 @@
       username: '{{ aci_username }}'
       password: '{{ aci_password }}'
       validate_certs: no
+<<<<<<< HEAD
     tenant: Rawai_Tenant
     vrf: vrf_RaWai
+=======
+    tenant: fyaztest_Tenant
+    vrf: vrf_ft
+>>>>>>> 5bfee1ce39fce0fcb03799f87127a628a32178b8
     bd:
       name: bd_T3_1
       ip: 30.30.30.1
