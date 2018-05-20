@@ -1,0 +1,10 @@
+[apic]
+10.180.0.65
+[apic:vars]
+ansible_connection = local
+aci_hostname = 10.180.0.65
+aci_username = admin
+aci_password = Cisco123
+
+[localhost]
+127.0.0.1  ansible_connection=local
