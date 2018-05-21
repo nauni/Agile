@@ -10,8 +10,8 @@
       username: '{{ aci_username }}'
       password: '{{ aci_password }}'
       validate_certs: no
-    tenant: Chen_Xiao_Tenant
-    vrf: vrf_cx
+    tenant: Cisco_Tenant
+    vrf: vrf_Cisco
     bd:
       name: bd_ansible_1
       ip: 20.20.20.1
