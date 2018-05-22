@@ -1,0 +1,12 @@
+#Configure a Bridge Domain under specific tenant
+
+POST URL: http://10.180.0.65/api/mo/uni/tn-Chen_Xiao_Tenant.json
+Content-Type: application/json
+Cache-Control: no-cache
+POST BODY :
+{
+    "fvBD": {
+        "attributes": {
+            "name": "fyaztest_bd"
+        }
+}
