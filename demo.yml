@@ -10,11 +10,11 @@
       username: '{{ aci_username }}'
       password: '{{ aci_password }}'
       validate_certs: no
-    tenant: LipKhin_Test
-    vrf: vrf_Cisco
+    tenant: NetDevOps_Tenant
+    vrf: vrf_NetDevOps
     bd:
       name: bd_ansible_1
-      ip: 20.20.20.1
+      ip: 192.168.1.10
       mask: 24
     app_profile: app1
     filter: Contract1_filter
