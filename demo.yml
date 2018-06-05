@@ -10,7 +10,7 @@
       username: '{{ aci_username }}'
       password: '{{ aci_password }}'
       validate_certs: no
-    tenant: NetDevOps_Tenant
+    tenant: SQ_Demo
     vrf: vrf_NetDevOps
     bd:
       name: bd_ansible_1
