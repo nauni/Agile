@@ -10,8 +10,8 @@
       username: '{{ aci_username }}'
       password: '{{ aci_password }}'
       validate_certs: no
-    tenant: NetDevOps_Demo_Mango
-    vrf: vrf_NetDevOps_Mango
+    tenant: NetDevOps_Khanna
+    vrf: vrf_NetDevOps_Khanna
     bd:
       name: bd_ansible_1
       ip: 10.168.10.10
