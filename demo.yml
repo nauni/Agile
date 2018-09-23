@@ -10,8 +10,8 @@
       username: '{{ aci_username }}'
       password: '{{ aci_password }}'
       validate_certs: no
-    tenant: NetDevOps_Nauni
-    vrf: vrf_NetDevOps_Nauni
+    tenant: NetDevOps_DemoDD
+    vrf: vrf_NetDevOps_DemoDD
     bd:
       name: bd_ansible_1
       ip: 10.168.10.10
@@ -30,7 +30,7 @@
     aci_tenant:
       <<: *aci_login
       tenant: '{{ tenant }}'
-      description: 'tenant'
+      description: 'CI/CD Demo'
     delegate_to: localhost
 
   - name: Create VRF
