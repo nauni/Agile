@@ -30,7 +30,7 @@
     aci_tenant:
       <<: *aci_login
       tenant: '{{ tenant }}'
-      description: 'Demonstration for DD Team'
+      description: 'Demonstration for NetDevOps'
     delegate_to: localhost
 
   - name: Create VRF
