@@ -1,5 +1,5 @@
 ---
-# Demo playbook V3.0
+# Demo playbook V4.0
 - name: Configuring Tenant
   hosts: apic
   gather_facts: no
@@ -10,10 +10,10 @@
       username: '{{ aci_username }}'
       password: '{{ aci_password }}'
       validate_certs: no
-    tenant: Mayank_Test
-    vrf: vrf_NetDevOps_Test
+    tenant: Mayank_Tenant
+    vrf: vrf_Mayank_Test
     bd:
-      name: bd_ansible_1
+      name: bd_Mayank
       ip: 10.168.10.10
       mask: 24
     app_profile: app1
@@ -30,7 +30,7 @@
     aci_tenant:
       <<: *aci_login
       tenant: '{{ tenant }}'
-      description: 'Demonstration for DC Tech B3'
+      description: 'Demonstration By Mayank'
     delegate_to: localhost
 
   - name: Create VRF
