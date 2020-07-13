@@ -10,7 +10,7 @@
       username: '{{ aci_username }}'
       password: '{{ aci_password }}'
       validate_certs: no
-    tenant: Mayank_Tenant
+    tenant: Test_Tenant
     vrf: vrf_Mayank_Demo
     bd:
       name: bd_Mayank
